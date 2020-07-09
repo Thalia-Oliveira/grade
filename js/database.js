@@ -142,10 +142,10 @@ window.courses = [
     [ // Astronomy: Astrophysics
         // First term 
         { name: "Filos Educacao Mundo Ocidental", credits: 4, code: "EDF120", semester: 1 }, // 0
-        { name: "Computação I", credits: 4, code: "MAB121", semester: 1}, // 1
-        { name: "Cálculo I", credits: 6, code: "MAC118", semester: 1}, // 2
-        { name: "Física I", credits: 4, code: "FIT111", semester: 1}, // 3
-        { name: "Física Experimental I", credits: 1, code: "FIS111", semester: 1}, // 4
+        { name: "Teoria da Geografia", credits: 4, code: "IGG112", semester: 1 }, // 1
+        { name: "Planeta Terra", credits: 4, code: "IGG114", semester: 1 }, // 2
+        { name: "Geog do Mundo Contemporaneo", credits: 4, code: "IGG115", semester: 1 }, // 3
+        { name: "	Geografia da Populacao", credits: 4, code: "IGG122", semester: 1 }, // 4
         // Second term
         { name: "Astronomia Esférica", credits: 5, code: "OVL121", semester: 2, category: 1}, // 5
         { name: "Álgebra Linear II", credits: 4, code: "MAE125", semester: 2, category: 1}, // 6
