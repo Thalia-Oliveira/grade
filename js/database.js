@@ -146,19 +146,18 @@ window.courses = [
         { name: "Planeta Terra", credits: 4, code: "IGG114", semester: 1 }, // 2
         { name: "Geog do Mundo Contemporaneo", credits: 4, code: "IGG115", semester: 1 }, // 3
         { name: "	Geografia da Populacao", credits: 4, code: "IGG122", semester: 1 }, // 4
-        // Second term
-        { name: "Astronomia Esférica", credits: 5, code: "OVL121", semester: 2, category: 1}, // 5
-        { name: "Álgebra Linear II", credits: 4, code: "MAE125", semester: 2, category: 1}, // 6
-        { name: "Cálculo II", credits: 4, code: "MAC128", semester: 2, requirements: [2], category: 1}, // 7
-        { name: "Física II", credits: 4, code: "FIT122", semester: 2, requirements: [2, 3], category: 1}, // 8
-        { name: "Física Experimental II", credits: 1, code: "FIS121", semester: 2, requirements: [3, 4], category: 1}, // 9
+        { name: "Fundamentos Sociológ Educação", credits: 4, code: "EDF240", semester: 2, category: 1 }, // 6
+        { name: "Fundamentos de Biogeografia", credits: 4, code: "IGG123", semester: 2, category: 1 }, // 7
+        { name: "Climatologia Geográfica", credits: 4, code: "IGG124", semester: 2, category: 1 }, // 8
+        { name: "Cartografia Básica", credits: 4, code: "IGG125", semester: 2, category: 1 }, // 9
+        { name: "Metodologia Cientifica", credits: 1, code: "IGG234", semester: 2, category: 1 }, // 10
         // Third term
-        { name: "Laboratório de Astronomia", credits: 2, code: "OVL231", semester: 3, category: 1}, // 10
-        { name: "Métodos Computacionais da Astronomia", credits: 5, code: "OVL232", semester: 3, requirements: [1,6], category: 1}, // 11
-        { name: "Introdução à Estatística", credits: 4, code: "MAD124", semester: 3, category: 1}, // 12
-        { name: "Cálculo III", credits: 4, code: "MAC238", semester: 3, requirements: [7], category: 1}, // 13
-        { name: "Física III", credits: 4, code: "FIM230", semester: 3, requirements: [3, 7], category: 1}, // 14
-        { name: "Física Experimental III", credits: 1, code: "FIN231", semester: 3, requirements: [9], category: 1}, // 15
+        { name: "Educacao Brasileira", credits: 4, code: "EDA234", semester: 3, category: 1 }, // 11
+        { name: "Geomorfologia Geral", credits: 4, code: "IGG235", semester: 3, category: 1 }, // 12
+        { name: "Geografia Econômica", credits: 4, code: "IGG237", semester: 3, category: 1 }, // 13
+        { name: "Trabalho de Campo Geog Física", credits: 1, code: "IGGX03", semester: 3, requirements: [7,8,12], category: 1 }, // 14
+        { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 3, category: 1 }, // 15
+
         // Fourth term
         { name: "Astrofísica Geral", credits: 5, code: "OVL241", semester: 4, requirements: [2,14], category: 1}, // 16
         { name: "Física Moderna I", credits: 4, code: "FIN242", semester: 4, requirements: [14], category: 1}, // 17
