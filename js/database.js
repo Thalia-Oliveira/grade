@@ -159,32 +159,37 @@ window.courses = [
         { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 3, category: 1 }, // 15
 
         // Fourth term
-        { name: "Astrofísica Geral", credits: 5, code: "OVL241", semester: 4, requirements: [2,14], category: 1}, // 16
-        { name: "Física Moderna I", credits: 4, code: "FIN242", semester: 4, requirements: [14], category: 1}, // 17
-        { name: "Mecânica Clássica I", credits: 4, code: "FIW243", semester: 4, requirements: [8,13], category: 1}, // 18
-        { name: "Métodos da Física Teórica I", credits: 4, code: "FIW245", semester: 4, requirements: [13], category: 1}, // 19
-        { name: "Física IV", credits: 4, code: "FIM240", semester: 4, requirements: [14], category: 1}, // 20
-        { name: "Física Experimental IV", credits: 1, code: "FIN241", semester: 4, requirements: [15], category: 1}, // 21
+        { name: "	Didática", credits: 4, code: "EDD241", semester: 4, category: 1 }, // 16
+        { name: "	Geografia Política", credits: 4, code: "IGG252", semester: 4, category: 1 }, // 17
+        { name: "Cartografia Temática", credits: 4, code: "IGG254", semester: 4, requirements: [9], category: 1 }, // 18
+        { name: "	Trab Campo Cart Sens Remoto", credits: 1, code: "IGGX04", semester: 4, requirements: [18], category: 1 }, // 19
+        { name: "Oficina Did de Geo Física", credits: 3, code: "IGGY05", semester: 4, requirements: [12], category: 1 }, // 20
+        { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 4, category: 1 }, // 21
+
         // Fifth term
-        { name: "Sistemas Planetários", credits: 5, code: "OVL352", semester: 5, requirements: [5,18], category: 1}, // 22
-        { name: "Técnica Observacional Astronômica", credits: 5, code: "OLV351", semester: 5, requirements: [10,16], category: 1}, // 23
-        { name: "Mecânica Quântica I", credits: 4, code: "FIW356", semester: 5, requirements: [20,19,17], category: 1}, // 24
-        { name: "Eletromagnetismo I", credits: 4, code: "FIW244", semester: 5, requirements: [20,19], category: 1}, // 25
-        { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 5, category: 1}, // 26
+        { name: "Educ e Comunicação II (Libras)", credits: 3, code: "EDD636", semester: 5, category: 1 }, // 22
+        { name: "Psicologia da Educação", credits: 4, code: "EDF245", semester: 5, category: 1 }, // 23
+        { name: "Geografia Urbana", credits: 4, code: "IGG374", semester: 5, category: 1 }, // 24
+        { name: "Geografia Agrária", credits: 4, code: "IGG376", semester: 5, category: 1 }, // 25
+        { name: "Trabalho Campo Geog Humana", credits: 1, code: "IGGX07", semester: 5, requirements: [24, 25], category: 1 }, // 26
+        { name: "Oficina Did Cart Sens Remoto", credits: 3, code: "IGGY04", semester: 5, requirements: [18], category: 1 }, // 27
+        { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 5, category: 1 }, // 28
         // Sixth term
-        { name: "Evolução do Pensamento Astronômico", credits: 4, code: "OVL361", semester: 6, requirements: [16], category: 1}, // 27
-        { name: "Termodinâmica e Física Estatística", credits: 6, code: "FIW363", semester: 6, requirements: [20,13], category: 1}, // 28
-        { name: "Eletromagnetismo II", credits: 4, code: "FIW355", semester: 6, requirements: [25], category: 1}, // 29
-        { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 6, category: 1}, // 30
-        { name: "Atividades Acad. Optativas", credits: 4, semester: 6, category: 1}, // 31
+        { name: "Didatica da Geografia I", credits: 2, code: "EDD507", semester: 6, requirements: [16], category: 1 }, // 29
+        { name: "	Prát Ens Geog Estágio Supervis	", credits: 8, code: "EDDU08", semester: 6, requirements: [16], category: 1, workload: 400 }, // 30
+        { name: "Geografia Regional do Brasil", credits: 4, code: "IGG411", semester: 6, requirements: [25], category: 1 }, // 31
+        { name: "Trabalho Campo Geog Regional", credits: 1, semester: 6, code: "IGGX06", requirements: [31], category: 1 }, // 32
+        { name: "Oficina Did de Geo Humana", credits: 3, code: "IGGY03", semester: 6, requirements: [24,25], category: 1 }, // 33
+        { name: "Atividades Acad. Optativas", credits: 4, semester: 6, category: 1 }, // 34
         // Seventh term
-        { name: "Estrutura e Evolução Estelar", credits: 4, code: "OVL471", semester: 7, requirements: [28,16], category: 1}, // 32
-        { name: "Prática Observacional em Astronomia", credits: 4, code: "OVL473", semester: 7, requirements: [20,23], category: 1}, // 33
-        { name: "Atividades Acad. Optativas", credits: 4, semester: 7, category: 1}, // 34
+        { name: "Didatica da Geografia II", credits: 2, code: "EDD623", semester: 7, requirements: [29], category: 1 }, // 35
+        { name: "Oficina Did de Geo Regional", credits: 3, code: "IGGY06", semester: 7, requirements: [3, 31], category: 1 }, // 36
+        { name: "Atividades Acad. Optativas", credits: 4, semester: 7, category: 1 }, // 37
         // Eigth term
-        { name: "Projeto Final de Curso", credits: 60,code:'OVLX01', semester: 8, category: 1, workload: 60}, // 35
-        { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 8, category: 1}, // 36
-        { name: "Atividades Acad. Optativas", credits: 4, semester: 8, category: 1}, // 37
+        { name: "Trabalho de Conclusão de Curso	", credits: 6, code: 'IGGK02', semester: 8, requirements: [10], category: 1, workload: 60 }, // 38
+        { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 8, category: 1 }, // 36
+        { name: "Atividades Acad. Optativas", credits: 4, semester: 8, category: 1 }, // 37
+        { name: "Atividades Acad. Optativas", credits: 4, semester: 8, category: 1 }, // 38
     ]
 ]
 
