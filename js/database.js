@@ -188,3 +188,4 @@ window.courses = [
         { name: "Atividades Acad. Optativas", credits: 4, semester: 8, category: 1}, // 37
     ]
 ]
+
