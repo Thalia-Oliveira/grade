@@ -141,7 +141,7 @@ window.courses = [
     ],
     [ // Astronomy: Astrophysics
         // First term 
-        { name: "Introdução à Astronomia", credits: 2, code: "OVL111", semester: 1}, // 0
+        { name: "Filos Educacao Mundo Ocidental", credits: 4, code: "EDF120", semester: 1 }, // 0
         { name: "Computação I", credits: 4, code: "MAB121", semester: 1}, // 1
         { name: "Cálculo I", credits: 6, code: "MAC118", semester: 1}, // 2
         { name: "Física I", credits: 4, code: "FIT111", semester: 1}, // 3
