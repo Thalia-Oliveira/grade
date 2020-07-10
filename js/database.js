@@ -140,7 +140,7 @@ window.courses = [
         { name: "Química EE", credits: 4, semester: 4, code: "IQG111", category: 1, workload: 60},
     ],
     [ // Astronomy: Astrophysics
-        // First term 
+        // First term
         { name: "Filos Educacao Mundo Ocidental", credits: 4, code: "EDF120", semester: 1 }, // 0
         { name: "Teoria da Geografia", credits: 4, code: "IGG112", semester: 1 }, // 1
         { name: "Planeta Terra", credits: 4, code: "IGG114", semester: 1 }, // 2
@@ -194,4 +194,3 @@ window.courses = [
         { name: "Ativ. Extensão", credits: 320, semester: 8, category: 1, workload: 320, step: 15 }, // 40
     ]
 ]
-
