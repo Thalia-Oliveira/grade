@@ -190,7 +190,7 @@ window.courses = [
         { name: "Atividades Acad. Livre. Esc.", credits: 4, semester: 8, category: 1 }, // 36
         { name: "Atividades Acad. Optativas", credits: 4, semester: 8, category: 1 }, // 37
         { name: "Atividades Acad. Optativas", credits: 4, semester: 8, category: 1 }, // 38
-	{ name: "Ativ. Complementares", credits: 405, semester: 8, category: 1, workload: 405, step: 15 }, // 39
+	{ name: "Ativ. Complementares", credits: 405, semester: 8, category: 1, workload: 200, step: 15 }, // 39
         { name: "Ativ. Extensão", credits: 320, semester: 8, category: 1, workload: 320, step: 15 }, // 40
     ]
 ]
